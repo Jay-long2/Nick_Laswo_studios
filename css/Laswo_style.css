@@ -93,5 +93,8 @@ h1 {
         flex-direction: column;
     }
 }
-
-
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Add more padding for mobile screens */
+    }
+}
