@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laswo Studios</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet"/>
+    <link href="bootstrap/css/bootstrap.-grid.min.css" rel="stylesheet"/> 
+   
+    <link rel="stylesheet" href="css/Laswo_style.css"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row_1">
+          <div class="col-md-12">
+            <div class="logo">
+                <img src="/home/jlong/Pictures/snaps/WhatsApp Image 2024-09-20 at 2.09.43 PM (1).jpeg" alt="Logo" class="logo-image">
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Laswo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Servicereserved.html">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contactreserved.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Laswophotos.html">Photos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+          </div>
+        </div>
+      <div class="row_2">
+        <div class="main-content">
+          <div class="col-md-12">
+            <div class="content-overlay">
+                <h1>Welcome to Laswo Studios</h1>
+                <p>We are a company dedicated to providing excellent services. Our team is passionate about delivering the best customer experience.
+                In a company, effective teamwork is the foundation of success together,
+                we create an environment where challenges are tackled collectively,
+                and solutions are born from diverse perspectives.
+                We find great satisfaction in knowing that the efforts our team put in work brings joy to our esteemed customers.
+                </p>
+                <br>
+                <p>
+                   Laswo Studios stands out in the construction industry by integrating cutting-edge technology with traditional building expertise.
+                   The company specializes in crafting durable, innovative, 
+                   and aesthetically pleasing structures that meet both functional and creative demands. 
+                   Whether it's residential complexes, commercial spaces, or specialized projects,
+                   Laswo Studios is known for its commitment to precision, sustainability, and client satisfaction.
+                   With a focus on minimizing environmental impact, 
+                   the company employs eco-friendly materials and energy-efficient designs, 
+                   setting a benchmark for modern construction practices.
+                   The team at Laswo Studios consists of skilled professionals,
+                   including architects, engineers, and project managers, who collaborate to bring visions to life. 
+                   By maintaining open communication and fostering partnerships with clients, 
+                   Laswo Studios ensures every project aligns with the client’s goals, timeline, and budget.
+                   This personalized approach has earned the company a reputation for reliability, innovation, 
+                   and excellence, making it a trusted partner for construction projects of any scale.
+                </p>
+            </div>
+          </div>
+        </div>
+    </div> 
+    </div>
+</div>
+</div>
+<footer><p style="font-family:italics;font-size:20px;padding-left:400px;">Get in touch with the CEO through the following social media handles</p>
+    <br>
+    <a style="background-color:green;padding-left:40%;" href="https://web.whatsapp.com/" class="btn btn-primary">whatsapp</a>
+    <a style="background-color:black;padding-left:40%;" href="https://x.com/JaylongYk" class="btn btn-primary">X</a>
+</footer>
+   <script>// List of background images
+    const backgrounds = [
+        '/home/jlong/Desktop/Laswo_studios/assets/WhatsApp Image 2024-09-17 at 1.14.48 PM.jpeg', // First image
+        '/home/jlong/Desktop/Laswo_studios/assets/archit.jpeg', // Add second image path here
+        '/home/jlong/Desktop/Laswo_studios/assets/43 Luxury Interior Look Design Ideas - Matchness_com.jpeg'  // Add third image path here
+    ];
+    
+    // Change background every 2 minutes (120,000 ms)
+    let currentBackgroundIndex = 0;
+    const mainContent = document.querySelector('.main-content,');
+    
+    function changeBackground() {
+        currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
+        mainContent.style.backgroundImage = `url(${backgrounds[currentBackgroundIndex]})`;
+    }
+    
+    // Change background every 2 minutes
+    setInterval(changeBackground, 1200);
+    </script>
+   </html> 
+</body>
