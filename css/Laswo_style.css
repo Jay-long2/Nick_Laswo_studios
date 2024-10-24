@@ -60,7 +60,7 @@ body {
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-image: url("assets/67eb6b88-4b27-425c-8187-00a0d521be39.jpeg"); /* Initial image */
+    background-image: url("/home/jlong/Desktop/Laswo_studios/assets/archit.jpeg"); /* Initial image */
     transition: background-image 1s ease-in-out;
 }
 .nav-link:hover {
